@@ -27,7 +27,6 @@ a:hover{
 	color: #000000;
 }
 nav{
-	float: center;
 	margin: 1.5em 0 1.5em 0;	
 }
 nav ul{
@@ -47,7 +46,6 @@ main{
 	color: #FFFFFF;
 }
 main img{
-	float: center;
 	margin: 5em 0 0 43em;
 }
 main h2{
@@ -57,7 +55,6 @@ main h2{
 	text-align: center;
 }
 .maps{
-	float: center;
 	border: 8px solid #000;
 }
 #hobbies{
