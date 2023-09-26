@@ -3,3 +3,79 @@
 	Style.css
 	9/25/23
 */
+body, header, nav, main, footer, h1, div, img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+header{
+	text-align: center;
+}
+body{
+	background-color: #152238;
+	color: #FFFFFF;
+}
+img{
+	height: 30%;
+	width: 30%;
+}
+a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+a:hover{
+	color: #000000;
+}
+nav{
+	float: center;
+	margin: 1.5em 0 1.5em 0;	
+}
+nav ul{
+	list-style-type: hiragana;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: Veranda, Arial, sana-serif;
+	font-weight: bold;
+	padding: 0.5em 1em;
+}
+main{
+	color: #FFFFFF;
+}
+main img{
+	float: center;
+	margin: 5em 0 0 43em;
+}
+main h2{
+	text-align: center;
+}
+#contact{
+	text-align: center;
+}
+.maps{
+	float: center;
+	border: 8px solid #000;
+}
+#hobbies{
+	list-style-type: hiragana;
+}
+footer p{
+	font-size: 0.75em;
+	text-align: center;
+	color: #fff;
+	padding: 0 1em;
+}	
+footer p a{
+	color: #fff;
+	text-decoration: none;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            
+}
