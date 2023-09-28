@@ -45,8 +45,19 @@ nav li{
 main{
 	color: #FFFFFF;
 }
-main img{
-	margin: 5em 0 0 43em;
+.img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 8px solid #000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+	/*margin: 5em 0 0 43em;*/
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 main h2{
 	text-align: center;
