@@ -16,8 +16,8 @@ body{
 	color: #FFFFFF;
 }
 img{
-	height: 30%;
-	width: 30%;
+	display: block;
+	max-width: 100%;
 }
 a{
 	text-decoration: none;
@@ -44,6 +44,9 @@ nav li{
 }
 main{
 	color: #FFFFFF;
+}
+main ul{
+	list-style-type: none;
 }
 .img{
 	display: block;
