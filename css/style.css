@@ -8,15 +8,26 @@ body, header, nav, main, footer, h1, div, img{
 	padding: 0;
 	border: 0;
 }
-header{
-	text-align: center;
+header {
+    padding: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Dela Gothic One', sans-serif;
+    border: 2px ridge #152238;
+    border-width: 20px;
+    background-image: url(https://i0.wp.com/25.media.tumblr.com/c9f23336353eecfb5455e06eb1f34b30/tumblr_mnqik6wqJD1qejvrxo3_500.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
 }
 body{
 	background-color: #152238;
 	color: #FFFFFF;
 }
 img{
-	display: block;
 	max-width: 100%;
 }
 a{
@@ -24,13 +35,17 @@ a{
 	color:#FFFFFF;
 }
 a:hover{
-	color: #000000;
+	color: #152270;
 }
 nav{
-	margin: 1.5em 0 1.5em 0;	
+	border: 4px inset #152238;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #743dc7;*/	
 }
 nav ul{
-	list-style-type: hiragana;
+
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
@@ -45,34 +60,32 @@ nav li{
 main{
 	color: #FFFFFF;
 }
+main h2{
+	text-align: center;
+}
 main ul{
 	list-style-type: none;
 }
 .img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
 	border: 8px solid #000;
 	border-radius: 10px;
 	box-shadow: 5px 5px 10px black;
-	/*margin: 5em 0 0 43em;*/
+}
+.bio{
+	border: 4px inset #152238;
 }
 .center{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
-main h2{
-	text-align: center;
-}
-#contact{
-	text-align: center;
-}
 .maps{
 	border: 8px solid #000;
+	width: 40%;
 }
-#hobbies{
-	list-style-type: hiragana;
+.tablet-desktop{
+	display: none;
 }
 footer p{
 	font-size: 0.75em;
