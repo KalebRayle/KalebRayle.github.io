@@ -40,9 +40,9 @@ a:hover{
 }
 nav{
 	border: 4px inset #152238;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
+
+	padding-left: auto;
+	padding-right: auto;
 	/*background-color: #743dc7;*/	
 }
 nav ul{
@@ -70,7 +70,7 @@ main ul{
 .img{
 	display: block;
 	border: 8px solid #000;
-	border-radius: 10px;
+	border-radius: 70px;
 	box-shadow: 5px 5px 10px black;
 }
 .bio{
@@ -102,5 +102,5 @@ footer p a{
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            
+  height: 1.25em;            
 }
