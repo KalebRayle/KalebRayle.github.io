@@ -26,6 +26,7 @@ header {
 body{
 	background-color: #152238;
 	color: #FFFFFF;
+	overflow: auto;
 }
 img{
 	max-width: 100%;
