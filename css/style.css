@@ -98,7 +98,6 @@ footer{
 	font-size: 0.75em;
 	text-align: center;
 	color: #fff;
-	padding: 0 1em;
 }	
 footer p{
 	color: #fff;
@@ -121,10 +120,12 @@ footer p{
 	}
 
 	#footer{
+		bottom: 0;
 		position: absolute; 
 	}
 }
 
+/*Desktop Viewport*/
 @media screen and (max-width: 782px) {
 	nav ul li {
 		display: block;
@@ -138,7 +139,7 @@ footer p{
 	}
 }
 
-/*Desktop Viewport*/
+
 @media screen and (min-width: 1015px), print{
 	
 }
