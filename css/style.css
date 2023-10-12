@@ -66,6 +66,9 @@ main ul{
 	list-style-type: none;
 }
 .img{
+	margin-top: 10px;
+	box-sizing: border-box;
+	max-width: calc(100vw);
 	display: block;
 	border: 8px solid #000;
 	border-radius: 70px;
@@ -127,6 +130,13 @@ footer p{
 
 /*Desktop Viewport*/
 @media screen and (max-width: 782px) {
+	header {
+		box-sizing: border-box;
+		padding: 0;
+		font-size: 5vw;
+		width: 100vw;
+	}
+
 	nav ul li {
 		display: block;
 		width: 100%;
