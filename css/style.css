@@ -3,7 +3,7 @@
 	Style.css
 	9/25/23
 */
-body, header, nav, main, footer, h1, div, img{
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, article{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -65,6 +65,39 @@ main h2{
 main ul{
 	list-style-type: none;
 }
+
+*{
+	box-sizing: border-box;
+}
+
+table{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 1%;
+}
+
+th, td{
+	border: 1px solid #000;
+	padding: 2%;
+}
+
+th{
+	/* background-color: #000; */
+	color: #fff;
+	font-size: 1.15em;
+}
+
+tr:nth-child(even){
+	background-color: #EEB4FF;
+}
+
 .img{
 	margin-top: 10px;
 	box-sizing: border-box;
@@ -97,6 +130,26 @@ main ul{
 	width: 20px;
 	float: center;
 }
+
+.frame{
+	position: relative;
+	max-width: 450px;
+	margin: 2% auto;
+}
+
+.pic-text{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
 footer{
 	font-size: 0.75em;
 	text-align: center;
@@ -120,6 +173,18 @@ footer p{
 
 	.mobile{
 		display: none;
+	}
+
+	.grid{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-gap: 20px;
+		padding-left: 17%;
+	}
+
+	.pic-text{
+		font-size: 1em;
+		padding: 10px;
 	}
 
 	#footer{
@@ -147,11 +212,24 @@ footer p{
 	nav ul :first-child {
 		border-top: 0;
 	}
+
 }
 
 
 @media screen and (min-width: 1015px), print{
-	
+	.pic-text{
+		font-size: 1.5em;
+		padding: 20px;
+	}
+
+	.frame{
+		opacity: 0.9;
+	}
+
+	.frame:hover{
+		opacity: 1;
+		box-shadow: 8px 8px 10px #808080;
+	}
 }
 /* @media screen and (min-width: 783) {
 	
