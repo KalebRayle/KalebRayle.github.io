@@ -1,0 +1,22 @@
+body{
+    background-color: #ffe5dc;
+}
+table{
+    box-shadow: 10px 10px 8px #792101;
+    border: 7px solid #fd4d0c;
+}
+caption{
+    color: #a22c02;
+    font-size: large;
+    font-weight: bold;
+}
+.head{
+    background-color: #a22c02;
+}
+td{
+    border:1px solid #a22c02;
+}
+
+tr:nth-child(odd){
+    background-color: #fe9772;
+}
