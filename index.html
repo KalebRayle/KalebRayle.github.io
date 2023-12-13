@@ -18,11 +18,27 @@
 	<title>Portfolio</title>
 </head>
 <body>	
-	<header>
+	<header id="page-top">
 		<h1 class="shadow">Kaleb Rayle's Portfolio</h1>
 	</header>
 
-	<nav>
+	<!--Mobile Nav-->
+	<nav class="mobile-nav">
+		<div id="menu-links">
+			<a href="index.html">Home</a>
+			<a href="projects.html">Projects</a>
+			<a href="resume.html">Resume</a>
+			<a href="personal.html">Personal Info</a>
+			<a href="terms.html">Terms</a>
+			<a href="hobby.html">Hobby</a>
+			<a href="favorites.html">Favorites</a>
+		</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+	</nav>
+
+	<nav class="tablet-desktop">
 		<ul>
 			<li><a href="index.html">Home</a></li> 
 			<li><a href="projects.html">Projects</a></li> 
@@ -50,5 +66,8 @@
 		</a>
 		<p>&copy; Copyright 2023. All Rights Reserved.</p>
 	</footer>
+
+	<script src="scripts/script.js"></script>
+
 </body>	
 </html>
