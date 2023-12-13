@@ -16,11 +16,25 @@
 <body>
 	
 		<!--Put Website name and/or logo in header-->
-		<header>
+		<header id="ffc-logo">
             <img src="images/forward-fitness-logo.png" 
                 alt="Foward Fitness Club logo">
         </header>
-        <nav>
+
+        <nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutrition</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<a class="menu-icon">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+        <nav class="tablet-desktop">
             <ul>
                 <li><a href="index.html">Home</a></li> 
                 <li><a href="about.html">About Us</a></li> 
@@ -126,6 +140,9 @@
 			<p>&copy; Copyright 2023. All Rights Reserved</p>
 			
 		</footer>
+
+        <script src="scripts/script.js"></script>
+
 </body>
 
 </html>

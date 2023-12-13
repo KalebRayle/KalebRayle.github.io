@@ -18,11 +18,25 @@
 	<div id="container">
 	
 		<!--Put Website name and/or logo in header-->
-		<header>
+		<header id="ffc-logo">
 			<a href="index.html"><img src="images/forward-fitness-logo.png" 
 				alt="Foward Fitness Club logo"></a>
 		</header>
-		<nav>
+
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutrition</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<a class="menu-icon">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+		<nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a></li> 
 				<li><a href="about.html">About Us</a></li> 
@@ -40,6 +54,8 @@
 				<h4 class="tablet-desktop tel-num">(814) 555-9608</h4>
 
 				<h4>Email us: <a href="mailto:fowardfitness@club.net" class="contact-email-link">fowardfitness@club.net</a></h4>
+
+				<h3 class="offer" onclick="discount()" id="special">View Promo Code</h3>
 
 				<h4>Visit us at: 1275 Channel Center Street, Boston, Ma 02210</h4>
 				
@@ -99,6 +115,9 @@
 
 						<label for="questions">Questions?</label>
 						<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+
+						<label for="promo">Promo Code:</label>
+						<input type="text" id="promo" name="promo">
 					</fieldset>
 
 					<input type="submit" id="submit" value="Submit" class="btn">
@@ -111,6 +130,9 @@
 		</footer>
 	
 	</div>
+
+	<script src="scripts/script.js"></script>
+
 </body>
 
 </html>

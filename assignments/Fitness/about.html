@@ -18,11 +18,25 @@
 	<div id="container">
 	
 		<!--Put Website name and/or logo in header-->
-		<header>
+		<header id="ffc-logo">
 			<a href="index.html"><img src="images/forward-fitness-logo.png" 
 				alt="Foward Fitness Club logo"></a>
 		</header>
-		<nav>
+
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutrition</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<a class="menu-icon">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+		<nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a></li> 
 				<li><a href="about.html">About Us</a></li> 
@@ -106,12 +120,14 @@
 					<dd>Burpees are a great, full body exercise to increase your strength and endurance. 
 					Bedin in a standing position, drop into a squat and extend your hands forward, kick 
 					your feet back and then forward again quicklu, and then jump up from a squatted position
+					<span class="viewex" onclick="burpees()"> View Example.</span>
 					</dd>
 					
 					<dt>Plank</dt>
 					
 					<dd>Planks build your core strength. To preform a plank, get in a push up position and rest 
 					your forearm on the floor. Hold the position for as long as you can.
+					<span class="viewex" onclick="plank()"> View Example.</span>
 					</dd>
 					
 					<dt>Mountain Climber</dt>
@@ -119,10 +135,17 @@
 					<dd>
 					Mountain climbers are a good cardio exercise. place your hands on the floor in a push up 
 					position, then bring one knee up to your chest and then switch as quickly as you can (as 
-					though you are climbing a mountain).
+					though you are climbing a mountain). <span class="viewex" onclick="mountain()"> View Example.</span>
 					</dd>
 				</dl>
 				
+				<video controls id="example">
+					<source id="vid-src" src="vid" type="video/mp4">
+					<track id="despsrc" src="des" kind="descriptions" srclang="en"
+					label="English Descriptions">
+					<p>Your browser does not support the video element.</p>
+				</video>
+
 				<p>
 					For more information about how to stay active, visit <a href="https://www.hhs.gov/fitness/be-active/index.html" target="_blank" class="external-link">U.S. Department of Health and Human Servicess</a>
 				</p>
@@ -135,6 +158,9 @@
 		</footer>
 	
 	</div>
+
+	<script src="scripts/script.js"></script>
+
 </body>
 
 </html>
