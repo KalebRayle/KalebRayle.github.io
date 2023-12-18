@@ -23,6 +23,23 @@ img, video{
 *{
 	box-sizing: border-box;
 }
+
+/* Style rule for skip navigation link */
+.skip{
+	position: absolute;
+	left: -999px;
+}
+
+.skip:focus{
+	color: #000;
+	background-color: #fff;
+	text-decoration: none;
+	padding: 0.5%;
+	top: auto;
+	left: auto;
+	right: 1px;
+	z-index: 1;
+}
 /*Style rules for mobile veiwport*/
 
 /* Style rules for header */
@@ -232,6 +249,26 @@ form #submit{
 	background-color: #b3b3b3;
 	font-size: 1em;
 	border-radius: 10px;
+}
+
+footer .copyright{
+	font-size: 0.75em;
+	text-align: center;
+	color: #fff;
+	padding: 2% 4%;
+	float: left;
+	width: 75%;
+}
+
+.socail{
+	float: right;
+	width: 20%;
+	padding: 2%;
+}
+
+.socail img{
+	display: inline-block;
+	padding: 5%;
 }
 
 @media screen and (min-width: 630px), print{
