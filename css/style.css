@@ -212,7 +212,7 @@ footer p{
 	color: #fff;
 	text-decoration: none;
 }
-.footer {
+.foot {
   position: relative;
   width: 100%;
   height: 1.25em;            
@@ -240,7 +240,7 @@ footer p{
 		padding: 10px;
 	}
 
-	.footer{
+	.foot{
 		bottom: 0;
 	}
 }
