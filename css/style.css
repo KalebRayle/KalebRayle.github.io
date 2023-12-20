@@ -185,6 +185,11 @@ tr:nth-child(even){
 	transform: translateY(5px);
 }
 
+.multimedia{
+	width: 750px;
+	height: 500px;
+}
+
 fieldset, input, select, textarea{
 	margin-bottom: 2%;
 }
