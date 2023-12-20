@@ -39,9 +39,6 @@ a:hover{
 }
 nav{
 	border: 4px inset #152238;
-	padding-left: auto;
-	padding-right: auto;
-	/*background-color: #743dc7;*/	
 }
 nav ul{
 	margin-top: 0;
@@ -153,7 +150,6 @@ tr:nth-child(even){
 .social{
 	height: 20px;
 	width: 20px;
-	float: center;
 }
 
 .frame{
